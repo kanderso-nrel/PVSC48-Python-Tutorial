@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the PVSC48 Python Tutorial! &#8212; PVSC48-Python-Tutorial  documentation</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Welcome!" href="nb/tutorial0.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="#">
+<p class="title">PVSC48-Python-Tutorial</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="nb/tutorial0.html">
+  Welcome!
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="nb/tutorial1.html">
+  Tutorial 1 - Weather Data: Accesing it, understanding it, visualizing it!
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="nb/tutorial2.html">
+  Tutorial 2 - POA Irradiance
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="nb/tutorial3.html">
+  Tutorial 3 - Module Temperature
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="nb/tutorial4.html">
+  Tutorial 4 - PV Module Performance
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Welcome to the PVSC48 Python Tutorial!
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#indices-and-tables">
+   Indices and tables
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="welcome-to-the-pvsc48-python-tutorial">
+<h1>Welcome to the PVSC48 Python Tutorial!<a class="headerlink" href="#welcome-to-the-pvsc48-python-tutorial" title="Permalink to this headline">¶</a></h1>
+<p>This website is a static version of the Jupyter notebooks in this GitHub repository:
+<a class="reference external" href="https://github.com/PVSC-Python-Tutorials/PVSC48-Python-Tutorial">https://github.com/PVSC-Python-Tutorials/PVSC48-Python-Tutorial</a></p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="nb/tutorial0.html">Welcome!</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial0.html#More-on-your-teachers:">More on your teachers:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial0.html#Overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial0.html#How-to-use-this-tutorial?">How to use this tutorial?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial0.html#Useful-links">Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial0.html#Tutorial-Structure">Tutorial Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial0.html#Exercise:-Print-Hello,-world!">Exercise: Print Hello, world!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial0.html#Going-Deeper">Going Deeper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nb/tutorial1.html">Tutorial 1 - Weather Data: Accesing it, understanding it, visualizing it!</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Weather-Data-and-PV">Weather Data and PV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Typical-Meteorological-Year">Typical Meteorological Year</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Import-Libraries">Import Libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Reading-a-TMY-dataset-with-pvlib">Reading a TMY dataset with pvlib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Irradiance">Irradiance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Wind">Wind</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Air-temperature">Air temperature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Downselect-columns">Downselect columns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Plotting-time-series-data-with-pandas-and-matplotlib">Plotting time series data with pandas and matplotlib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Aggregating-hourly-data-to-monthly-summaries">Aggregating hourly data to monthly summaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial1.html#Where-to-get-Solar-Irradiance-Data">Where to get Solar Irradiance Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nb/tutorial2.html">Tutorial 2 - POA Irradiance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial2.html#PV-Concepts">PV Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial2.html#Python-Concepts">Python Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial2.html#What-is-transposition">What is transposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial2.html#How-is-array-orientation-defined">How is array orientation defined</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial2.html#Modeling-POA-from-GHI,-DHI,-and-DNI">Modeling POA from GHI, DHI, and DNI</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nb/tutorial3.html">Tutorial 3 - Module Temperature</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial3.html#PV-Concepts-in-this-lesson">PV Concepts in this lesson</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial3.html#Python-concepts-in-this-lesson">Python concepts in this lesson</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial3.html#What-affects-module-temperature">What affects module temperature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial3.html#Modeling-module-temperature">Modeling module temperature</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nb/tutorial4.html">Tutorial 4 - PV Module Performance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#PV-Concepts">PV Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#Python-Concepts">Python Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#Standard-Test-Conditions">Standard Test Conditions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#IEC-61853-test-conditions">IEC 61853 test conditions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#Single-Diode-Model-and-IV-Curve">Single Diode Model and IV Curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#CEC-Model">CEC Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#Calculate-CEC-Parameters">Calculate CEC Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#IV-Curve-Info">IV Curve Info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nb/tutorial4.html#Conclusions">Conclusions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='right-next' id="next-link" href="nb/tutorial0.html" title="next page">Welcome!</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, Silvana Ayala, Mark Mikofski, Kevin Anderson.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.0.1.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
