@@ -1,4 +1,0 @@
-{
-    "path": "../../Tutorial 2 - POA Irradiance.ipynb",
-	"extra-media": ["../../images/"]
-}

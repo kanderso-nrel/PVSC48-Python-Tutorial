@@ -1,5 +1,0 @@
-{
-    "path": "../../Tutorial 0 - Overview.ipynb",
-    "extra-media": ["../../images/", "../../README.md"]
-}
-
